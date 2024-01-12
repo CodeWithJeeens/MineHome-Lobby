@@ -11,8 +11,6 @@ public class QuitEvent implements Listener {
 
     @EventHandler
     public void playerQuit (PlayerQuitEvent e) {
-        Player p = e.getPlayer();
-
         e.setQuitMessage(null);
     }
 }

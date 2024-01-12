@@ -1,5 +1,4 @@
-/server/
-/out/artifacts/MineHome_Lobby/
-/out/artifacts/MineHome_Lobby/MineHome-Lobby.jar/
-/target/
+server/
+out/
+target/
 

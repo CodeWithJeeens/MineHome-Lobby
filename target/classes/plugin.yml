@@ -1,6 +1,0 @@
-name: MineHome-Lobby
-version: '1.0-SNAPSHOT'
-main: eu.minehome.minehomelobby.MineHome_Lobby
-api-version: '1.18'
-commands:
-  build:

@@ -1,6 +1,7 @@
 package eu.minehome.minehomelobby.commands;
 
 import eu.minehome.minehomelobby.MineHome_Lobby;
+import eu.minehome.minehomelobby.utils.LobbyInventory;
 import org.bukkit.GameMode;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -33,6 +34,7 @@ public class BuildCmd implements CommandExecutor {
                 } else {
                     if (p.getGameMode().equals(GameMode.CREATIVE)) {
                         p.getInventory().clear();
+                        LobbyInventory.SetLobbyInventory(p);
                         p.setGameMode(GameMode.ADVENTURE);
                         p.sendMessage(Prefix + BuildOff);
                     }
